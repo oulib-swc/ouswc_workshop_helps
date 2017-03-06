@@ -1,0 +1,8 @@
+A Message from Mark Laufersweiler:
+Folks, it is almost time for the Software Carpentry Workshop to begin. This is a reminder to please install the software(s) prior to workshop. The software and install instructions can be found on the course website: http://oulib-swc.github.io/2016-04-27-ou. There are also installation videos to help with the installation process. They are located at http://software-carpentry.org/blog/2016/04/install-videos.html
+ 
+Also please take time to fill out the precourse survey. The link can be found on the course website listed above. 
+ 
+If you are having any issues, try come a bit early and we can begin helping you. Otherwise, we hope you are looking foward to learning how to get more work done with your computer!
+ 
+-mjl
