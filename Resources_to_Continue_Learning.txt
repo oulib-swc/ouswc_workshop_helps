@@ -1,29 +1,41 @@
 Resources to Continue Learning
 
 Lessons:
-	Shell: https://swcarpentry.github.io/shell-novice/
-	Python: https://swcarpentry.github.io/python-novice-gapminder/
-	Git: https://swcarpentry.github.io/git-novice/
+	Shell: 	https://swcarpentry.github.io/shell-novice/
+	Git: 	https://swcarpentry.github.io/git-novice/
+	Gapminder:
+		Python: https://swcarpentry.github.io/python-novice-gapminder/
+		R:		http://swcarpentry.github.io/r-novice-gapminder
 	Other Carpentry Lessons:  http://software-carpentry.org/lessons/
 
 SWC Reference (Includes Summaries of Basic Commands):
-	shell: https://swcarpentry.github.io/shell-novice/reference/
-	python: https://swcarpentry.github.io/python-novice-gapminder/reference/
-	git: https://swcarpentry.github.io/git-novice/reference/
+	shell: 	https://swcarpentry.github.io/shell-novice/reference/
+	git: 	https://swcarpentry.github.io/git-novice/reference/
+	Gapmider
+		python: https://swcarpentry.github.io/python-novice-gapminder/reference/
+		R:		http://swcarpentry.github.io/r-novice-gapminder/reference/
 
-Additional Resources:
-Shell: 
+Additional Resources
+
+Shell:
 	Cool website that can dissect your shell commands (super useful for troubleshooting): http://explainshell.com/
+
 Python:
-	Code Academy: https://www.codecademy.com/
 	Python documentation: https://www.python.org/doc/
 	List of python tutorials: https://www.fullstackpython.com/best-python-resources.html
+
+Python and R:
+	Code Academy: https://www.codecademy.com/
+	Code:	http://code.org
+    Lynda:	https://lynda.ou.edu
+    Udacity	https://udacity.com
+
 Git/GitHub:
 	Guide to Markdown on Github: https://guides.github.com/features/mastering-markdown/
 	Intro to Github work flow: https://guides.github.com/introduction/flow/
 	Forking projects on Github: https://guides.github.com/activities/forking/
-	perks: Students are eligible for a free Github education account (unlimited private repositories) 
-	       https://education.github.com 
+	perks: Students are eligible for a free Github education account (unlimited private repositories)
+	       https://education.github.com
 
 Plotting:
 	What chart do I use?
@@ -32,12 +44,17 @@ Plotting:
 		http://pandas.pydata.org/pandas-docs/version/0.18.1/visualization.html
 	Matplotlib visualization examples:
 		http://matplotlib.org/gallery.html
-	
+
 Library(package) documentation:
 	http://matplotlib.org/
 	http://pandas.pydata.org/
-	cheatsheet: https://github.com/pandas-dev/pandas/raw/master/doc/cheatsheet/Pandas_Cheat_Sheet.pdf
+
+cheatsheet:
+	Pandas: https://github.com/pandas-dev/pandas/raw/master/doc/cheatsheet/Pandas_Cheat_Sheet.pdf
 
 Other:
 	A comparison of several text editors for coding: https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Available_text_editors
 	What programming language is right for you: http://www.bestprogramminglanguagefor.me/
+
+Lite Reading:
+    https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/
