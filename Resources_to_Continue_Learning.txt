@@ -18,7 +18,8 @@ SWC Reference (Includes Summaries of Basic Commands):
 Additional Resources
 
 Shell:
-	Cool website that can dissect your shell commands (super useful for troubleshooting): http://explainshell.com/
+	Cool website that can dissect your shell commands (super useful for troubleshooting):
+		http://explainshell.com/
 
 Python:
 	Python documentation: https://www.python.org/doc/
@@ -50,7 +51,8 @@ Library(package) documentation:
 	http://pandas.pydata.org/
 
 cheatsheet:
-	Pandas: https://github.com/pandas-dev/pandas/raw/master/doc/cheatsheet/Pandas_Cheat_Sheet.pdf
+	Pandas: 	https://github.com/pandas-dev/pandas/raw/master/doc/cheatsheet/Pandas_Cheat_Sheet.pdf
+	ggplot2:	http://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf
 
 Other:
 	A comparison of several text editors for coding: https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Available_text_editors
