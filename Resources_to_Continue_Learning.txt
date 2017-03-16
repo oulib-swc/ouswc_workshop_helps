@@ -24,6 +24,10 @@ Shell:
 Python:
 	Python documentation: https://www.python.org/doc/
 	List of python tutorials: https://www.fullstackpython.com/best-python-resources.html
+	
+R: 
+	TryR : http://tryr.codeschool.com/
+	R Studio: https://www.rstudio.com/online-learning/
 
 Python and R:
 	Code Academy: https://www.codecademy.com/
