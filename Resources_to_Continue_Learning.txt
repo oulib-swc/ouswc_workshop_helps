@@ -11,7 +11,7 @@ Lessons:
 SWC Reference (Includes Summaries of Basic Commands):
 	shell: 	https://swcarpentry.github.io/shell-novice/reference/
 	git: 	https://swcarpentry.github.io/git-novice/reference/
-	Gapmider
+	Gapminder
 		python: https://swcarpentry.github.io/python-novice-gapminder/reference/
 		R:		http://swcarpentry.github.io/r-novice-gapminder/reference/
 
