@@ -28,7 +28,7 @@ Python:
 Python and R:
 	Code Academy: https://www.codecademy.com/
 	Code:	http://code.org
-    Lynda:	https://lynda.ou.edu
+    Lynda:	http://lynda.ou.edu
     Udacity	https://udacity.com
 
 Git/GitHub:
