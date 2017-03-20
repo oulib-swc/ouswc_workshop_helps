@@ -5,3 +5,7 @@ past_workshops/
 
 .ipynb*
 *.ipynb
+
+*.docx
+*.pdf
+*.html
