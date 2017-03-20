@@ -11,7 +11,7 @@ Lessons:
 SWC Reference (Includes Summaries of Basic Commands):
 	shell: 	https://swcarpentry.github.io/shell-novice/reference/
 	git: 	https://swcarpentry.github.io/git-novice/reference/
-	Gapmider
+	Gapminder
 		python: https://swcarpentry.github.io/python-novice-gapminder/reference/
 		R:		http://swcarpentry.github.io/r-novice-gapminder/reference/
 
@@ -24,6 +24,10 @@ Shell:
 Python:
 	Python documentation: https://www.python.org/doc/
 	List of python tutorials: https://www.fullstackpython.com/best-python-resources.html
+	
+R: 
+	TryR : http://tryr.codeschool.com/
+	R Studio: https://www.rstudio.com/online-learning/
 
 Python and R:
 	Code Academy: https://www.codecademy.com/
