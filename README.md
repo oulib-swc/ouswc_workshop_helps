@@ -4,7 +4,7 @@
 This repository includes files that can be helpful to administrating and running  Carpentry workshops hosts by the University Libraries.
 
 ##### Text files to easily include in etherpad
-* Resources_to_Continue_Learning.txt
+* Resources_to_Continue_Learning.[md|txt]
     * A list of links to addition resources that learners can access after workshops. This can be sent out via Eventbrite or other email systems
 * git_collaboration.txt
     * The outline of steps that learners will work through on the *Countries Git/GitHub Collabaoration* exercise.
