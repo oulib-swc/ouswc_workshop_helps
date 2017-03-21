@@ -1,4 +1,4 @@
-### Resources to Continue Learning
+### Resources for Continue Learning
 
 1. Lessons:
 	* Shell: 	https://swcarpentry.github.io/shell-novice/

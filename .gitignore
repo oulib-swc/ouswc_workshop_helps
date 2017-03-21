@@ -1,7 +1,8 @@
 2016*/
 2017*/
 2018*/
-past_workshops/
+past/
+current/
 
 .ipynb*
 *.ipynb

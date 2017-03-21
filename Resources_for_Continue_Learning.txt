@@ -1,4 +1,4 @@
-### Resources to Continue Learning
+### Resources for Continue Learning
 
 1.  Lessons:
     -   Shell: https://swcarpentry.github.io/shell-novice/
@@ -58,4 +58,3 @@
         http://www.bestprogramminglanguagefor.me/
 10. Lite Reading:
     -   https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/
-
