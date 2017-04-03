@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>template</title>
+<meta name="generator" content="Etherpad">
+<meta name="author" content="Etherpad">
+<meta name="changedby" content="Etherpad">
+<meta charset="utf-8">
+<style>
+* {
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  line-height: 17px;
+}
+ul.indent {
+  list-style-type: none;
+}
+ol {
+  list-style-type: none;
+  padding-left: 0;
+}
+body > ol {
+  counter-reset: first second third fourth fifth sixth seventh eigth ninth tenth eleventh twelth thirteenth fourteenth fifteenth sixteenth;
+}
+ol > li:before {
+  content: counter(first) ". ";
+  counter-increment: first;
+}
+ol > ol > li:before {
+  content: counter(first) "." counter(second) ". ";
+  counter-increment: second;
+}
+ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) ". ";
+  counter-increment: third;
+}
+ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) ". ";
+  counter-increment: fourth;
+}
+ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) ". ";
+  counter-increment: fifth;
+}
+ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) ". ";
+  counter-increment: sixth;
+}
+ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) ". ";
+  counter-increment: seventh;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eigth) ". ";
+  counter-increment: eigth;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eigth) "." counter(ninth) ". ";
+  counter-increment: ninth;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eigth) "." counter(ninth) "." counter(tenth) ". ";
+  counter-increment: tenth;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eigth) "." counter(ninth) "." counter(tenth) "." counter(eleventh) ". ";
+  counter-increment: eleventh;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eigth) "." counter(ninth) "." counter(tenth) "." counter(eleventh) "." counter(twelth) ". ";
+  counter-increment: twelth;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eigth) "." counter(ninth) "." counter(tenth) "." counter(eleventh) "." counter(twelth) "." counter(thirteenth) ". ";
+  counter-increment: thirteenth;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eigth) "." counter(ninth) "." counter(tenth) "." counter(eleventh) "." counter(twelth) "." counter(thirteenth) "." counter(fourteenth) ". ";
+  counter-increment: fourteenth;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eigth) "." counter(ninth) "." counter(tenth) "." counter(eleventh) "." counter(twelth) "." counter(thirteenth) "." counter(fourteenth) "." counter(fifteenth) ". ";
+  counter-increment: fifteenth;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > li:before {
+  content: counter(first) "." counter(second) "." counter(third) "." counter(fourth) "." counter(fifth) "." counter(sixth) "." counter(seventh) "." counter(eigth) "." counter(ninth) "." counter(tenth) "." counter(eleventh) "." counter(twelth) "." counter(thirteenth) "." counter(fourteenth) "." counter(fifteenth) "." counter(sixthteenth) ". ";
+  counter-increment: sixthteenth;
+}
+ol {
+  text-indent: 0px;
+}
+ol > ol {
+  text-indent: 10px;
+}
+ol > ol > ol {
+  text-indent: 20px;
+}
+ol > ol > ol > ol {
+  text-indent: 30px;
+}
+ol > ol > ol > ol > ol {
+  text-indent: 40px;
+}
+ol > ol > ol > ol > ol > ol {
+  text-indent: 50px;
+}
+ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 60px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 70px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 80px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 90px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 100px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 110px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 120px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 130px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 140px;
+}
+ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol > ol {
+  text-indent: 150px;
+}
+h1{font-size: 2.0em;line-height: 120%;}   h2{font-size: 1.5em;line-height: 120%;}   h3{font-size: 1.17em;line-height: 120%;}   h4{line-height: 120%;}   h5{font-size: 0.83em;line-height: 120%;}   h6{font-size: 0.75em;line-height: 120%;}   code{font-family: monospace;}fs8{font-size:8px};fs9{font-size:9px};fs10{font-size:10px;}fs11{font-size:11px;}fs12{font-size:12px;}fs13{font-size:13px;}fs14{font-size:14px;}fs15{font-size:15px;}fs16{font-size:16px;}fs17{font-size:17px;}fs18{font-size:18px;}fs19{font-size:19px;}fs20{font-size:20px;}fontarial{
+  font-family:arial;
+}
+fonttimes-new-roman{
+  font-family:times new roman;
+}
+fontcalibri{
+  font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+}
+fonthelvetica{
+  font-family:helvetica;
+}
+fontcourier{
+  font-family:courier;
+}
+fontpalatino{
+  font-family:palatino;
+}
+fontgaramond{
+  font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif; 
+}
+fontbookman{
+  font-family:bookman, Bookman Old Style;
+}
+fontavant-garde{
+  font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+}
+*{
+  font-family:inherit
+}
+[data-color="black"], .color\:black  { color:black; }
+[data-color="red"], .color\:red    { color:red; }
+[data-color="green"], .color\:green  { color:green; }
+[data-color="blue"], .color\:blue   { color:blue; }
+[data-color="yellow"], .color\:yellow { color:yellow; }
+[data-color="orange"], .color\:orange { color:orange; }
+</style>
+</head>
+<body>
+ <h1>Software Carpentry Workshop</h1> <h2>University of Oklahoma Bizzell Library</h2> <h2>Collaborative Learning Classroom (LL123)</h2> <h2>DATE</h2> <h3></h3><strong>Course website:</strong>&nbsp;<br><strong>This etherpad:&nbsp;</strong>&nbsp;<br><br>Welcome to Software Carpentry Etherpad!<br>Users are expected to follow our code of conduct: <a href="http&#x3a;&#x2F;&#x2F;software&#x2d;carpentry&#x2e;org&#x2F;conduct&#x2e;html">http:&#x2F;&#x2F;software-carpentry.org&#x2F;conduct.html</a><br>All content is publicly available under the Creative Commons Attribution License: <a href="https&#x3a;&#x2F;&#x2F;creativecommons&#x2e;org&#x2F;licenses&#x2F;by&#x2F;4&#x2e;0&#x2F;">https:&#x2F;&#x2F;creativecommons.org&#x2F;licenses&#x2F;by&#x2F;4.0&#x2F;</a><br><br><strong><span data-color="red"><em>--- Scroll to the bottom for FRESH notes --- Scroll to the bottom for FRESH notes --- Scroll to the bottom for FRESH notes ---</em></span></strong><br> <h2></h2> <h2>Please fill out the pre-class survey located on the course website. </h2> <h2></h2> <h4>Attendees (Name &#x2F; department or affiliation &#x2F; twitter)</h4><ul class="bullet"><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li><br></li></ul><br><strong>Instructors</strong><br><ul class="bullet"><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li></ul><br><strong>Helpers</strong><br><ul class="bullet"><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li><br></li></ul><br><br>This pad is synchronized as you type, so that everyone viewing this page sees the same text. This allows you to collaborate seamlessly on documents.<br><br>Use of this service is restricted to members of the Software Carpentry and Data Carpentry community; this is not for general purpose use (for that, try etherpad.wikimedia.org).<br><br> <h3>Day One</h3><br>Now it is time for some Git magic to wow and amaze (and to test your Git installs)<br>From the command line in the command shell enter the following<br><ul class="indent"><li><br></li><li>cd Desktop [return]</li><li>git clone <a href="https&#x3a;&#x2F;&#x2F;github&#x2e;com&#x2F;oulib&#x2d;swc&#x2F;ou&#x5f;swc&#x5f;files&#x2e;git">https:&#x2F;&#x2F;github.com&#x2F;oulib-swc&#x2F;ou_swc_files.git</a>&nbsp; [return]</li><li><br></li><li>If git is not working for you, then paste the following link into your browser and download the zip file:</li><li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li><ul class="indent"><li><a href="https&#x3a;&#x2F;&#x2F;github&#x2e;com&#x2F;oulib&#x2d;swc&#x2F;ou&#x5f;swc&#x5f;files&#x2F;archive&#x2F;master&#x2e;zip">https:&#x2F;&#x2F;github.com&#x2F;oulib-swc&#x2F;ou_swc_files&#x2F;archive&#x2F;master.zip</a></li></ul></ul><br><br><br><br><br><br><br> <h3>Day Two</h3> <h3></h3><br><br><br><br><br>Last line<br>
+<div style="display:none"><a href="/javascript" data-jslicense="1">JavaScript license information</a></div>
+</body>
+</html>

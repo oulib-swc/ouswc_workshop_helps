@@ -10,3 +10,5 @@ current/
 *.docx
 *.pdf
 *.html
+
+!ou_template_etherpad.html
