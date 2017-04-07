@@ -7,7 +7,8 @@ import csv
 # orders = pd.read_csv("report-2016-10-25T2057.csv", index_col='Order #')
 
 orders = ''
-file1 = '2017_03_13_ou/report-2017-03-15T1523.csv'
+# file1 = './report-2017-03-15T1523.csv'
+file1 = ''
 
 while file1 == '':
     file1 = input('Enter report filename from EventBrite: ')
@@ -19,7 +20,8 @@ orders = pd.read_csv(file1, index_col='Order #')
 #attendees = pd.read_csv('attendees_2016-10-25-ou.txt', delimiter=' ', header=None, names=['first_name', 'last_name'])
 
 attendees = ''
-file2 = '2017_03_13_ou/2017-03-13-sign-in_list.txt'
+# file2 = './2017-03-13-sign-in_list.txt'
+file2 = ''
 while file2 == '':
 	file2 = input('Enter list of attendees from etherpad: ')
 
@@ -40,13 +42,24 @@ wr = csv.writer(out, dialect='excel')
 wr.writerow(['name', 'email', 'department'])
 
 # test for EventBrite sign-up with attendee sign-in
+# for index, row in orders.iterrows():
+#     if row['Last Name'].lower() in attend_list:
+#         print (row['First Name'], row['Last Name'], '/', row['Email'], '/', row['Department or Center'] )
+#         wr.writerow([row['First Name'] + ' ' +row['Last Name'],  row['Email'],  row['Department or Center'] ])
+#     else:
+#         print (row['First Name'], row['Last Name'], 'no email or department available' )
+#         wr.writerow([row['First Name'] + ' ' +row['Last Name']])
+
+# Check for learns who pre-registered
 for index, row in orders.iterrows():
     if row['Last Name'].lower() in attend_list:
         print (row['First Name'], row['Last Name'], '/', row['Email'], '/', row['Department or Center'] )
         wr.writerow([row['First Name'] + ' ' +row['Last Name'],  row['Email'],  row['Department or Center'] ])
-#    else:
-#        print (row['First Name'], row['Last Name'], '/', row['Email'], '/', row['Department or Center'] )
-#        wr.writerow([row['First Name'] + ' ' +row['Last Name']])
+# Now check for learner who attended and did not pre-register
+for index,row in attendees.iterrows():
+    if row['last_name'].lower() not in order_list:
+        print (row['first_name'], row['last_name'], 'no email or department available' )
+        wr.writerow([row['first_name'] + ' ' +row['last_name']])
 
 
 out.close()
