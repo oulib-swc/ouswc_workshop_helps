@@ -2,7 +2,8 @@
 
 1.  Lessons:
     -   Shell: https://swcarpentry.github.io/shell-novice/
-    -   Git: https://swcarpentry.github.io/git-novice/ Gapminder:
+    -   Git: https://swcarpentry.github.io/git-novice/ 
+        Gapminder:
         -   Python: https://swcarpentry.github.io/python-novice-gapminder/
         -   R: http://swcarpentry.github.io/r-novice-gapminder
     -   Other Carpentry Lessons: http://software-carpentry.org/lessons/
@@ -57,3 +58,4 @@
         http://www.bestprogramminglanguagefor.me/
 10. Lite Reading:
     -   https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/
+
