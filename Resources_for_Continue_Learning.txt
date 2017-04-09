@@ -3,8 +3,7 @@
 1.  Lessons:
     -   Shell: https://swcarpentry.github.io/shell-novice/
     -   Git: https://swcarpentry.github.io/git-novice/ Gapminder:
-        -   Python:
-            https://swcarpentry.github.io/python-novice-gapminder/
+        -   Python: https://swcarpentry.github.io/python-novice-gapminder/
         -   R: http://swcarpentry.github.io/r-novice-gapminder
     -   Other Carpentry Lessons: http://software-carpentry.org/lessons/
 2.  SWC Reference (Includes Summaries of Basic Commands):

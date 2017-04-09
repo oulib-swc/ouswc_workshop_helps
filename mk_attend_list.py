@@ -9,36 +9,43 @@ parser=argparse.ArgumentParser(
                     the etherpad sign-ins and outputs a final attendance
                     list with emails and domains if available.
 
-                
+
                     The list of learners needs to be edited to only include
                     the first and last names of the attendees''',
     epilog="""Thank you for playing.""")
+
+parser.add_argument('file1', help='The EventBrite report file goes here.')
+parser.add_argument('file2', help='The Etherpad sign-in file goes here')
 args=parser.parse_args()
 
 
 # Read in csv file from EventBrite
 orders = ''
-file1 = ''
+#file1 = ''
 try:
-    while file1 == '':
-        file1 = input('Enter report filename from EventBrite: ')
-    orders = pd.read_csv(file1, index_col='Order #')
+    orders = pd.read_csv(args.file1, index_col='Order #')
 except:
-    print (file1, "does not exist")
+    print (args.file1, "does not exist")
     sys.exit()
 
 # Read in file list of learners from etherpad (first name last name)
 attendees = ''
-# file2 = './2017-03-13-sign-in_list.txt'
-file2 = ''
-try:
-    while file2 == '':
-    	file2 = input('Enter list of attendees from etherpad: ')
+#file2 = ''
 
-    attendees = pd.read_csv(file2, delimiter=' ', header=None, names=['first_name', 'last_name'])
+
+try:
+#    while file2 == '':
+#    	args.file2 = input('Enter list of attendees from etherpad: ')
+
+    attendees = pd.read_csv(args.file2, delimiter=' ', header=None, names=['first_name', 'last_name'] + list(range(0,4)))
+#    attendees = pd.read_csv(args.file2, delimiter=' ', header=None, names=['first_name', 'last_name', 'other0', 'other1', 'other2', 'other3', 'other4'])
+#    attendees = pd.read_csv(args.file2, delimiter=' ', header=None)
+#    attendees.columns = ['first_name', 'last_name', 'other']
 except:
-    print(file2, 'does not exist')
+    print(args.file2, 'does not exist')
     sys.exit()
+print(attendees)
+
 
 # Form lists for comparison
 attend_list = attendees['last_name'].tolist()
