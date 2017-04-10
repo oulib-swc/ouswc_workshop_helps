@@ -9,7 +9,6 @@ test/
 *.ipynb
 
 *.docx
-*.pdf
 *.html
 
 !ou_template_etherpad.html
