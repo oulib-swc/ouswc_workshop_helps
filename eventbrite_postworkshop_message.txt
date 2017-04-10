@@ -1,0 +1,17 @@
+Hi everyone,
+
+Thank you for attending Software Carpentry last week! I hope you found it helpful.
+
+Please take a few moments to fill out our post workshop survey (https://www.surveymonkey.com/r/swc_post_workshop_v1?workshop_id=2017-01-12-ou). Our workshop is listed in the drop-down menu. This feedback helps the larger Software Carpentry Organization improve.
+
+We’ve updated the etherpad with the lesson materials, references, and additional resources. You can check these out at http://pad.software-carpentry.org/2017-01-12-ou.
+
+We are offering SWC workshops two more times this semester. These will both take place in Bizzell Memorial Library.
+    · March 13-14: Bash, R, and Git/GitHub
+    · April 7-8: Bash, Python, and Git/GitHub
+
+If you are on campus, don’t forget that OU Libraries has office hours where you can get additional help. You can find our specialists at the time/locations listed below.
+    · Thursday 1:00 - 3:00 PM at the Bizzell Memorial Library, Digital Scholarship Laboratory LL1 #121
+    · Friday 10:00 - 12:00 PM at the Innovation Hub. Three Partners Place, 201 David L Boren Blvd, Norman, OK
+
+Please do not hesitate to contact us if you have any questions!
