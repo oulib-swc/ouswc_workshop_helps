@@ -6,12 +6,12 @@ import sys
 
 parser=argparse.ArgumentParser(
     description='''This script compairs the EventBrite registration with
-                    the etherpad sign-ins and outputs a final attendance
-                    list with emails and domains if available.
+                   the etherpad sign-ins and outputs a final attendance
+                   list with emails and domains if available.
 
 
-                    The list of learners needs to be edited to only include
-                    the first and last names of the attendees''',
+                   The list of learners needs to be edited to only include
+                   the first and last names of the attendees''',
     epilog="""Thank you for playing.""")
 
 parser.add_argument('file1', help='The EventBrite report file goes here.')
@@ -67,5 +67,5 @@ for index,row in attendees.iterrows():
         print (row['first_name'], row['last_name'], 'no email or department available' )
         wr.writerow([row['first_name'] + ' ' +row['last_name']])
 
-# Close output file. 
+# Close output file.
 out.close()
