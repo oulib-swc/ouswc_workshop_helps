@@ -10,8 +10,9 @@ parser=argparse.ArgumentParser(
                    list with emails and domains if available.
 
 
-                   The list of learners needs to be edited to only include
-                   the first and last names of the attendees''',
+                   The sign-in portion of the etherpad just needs to be of the
+                   sign-ins, no header. Keep in mind to check for a Jane Smith
+                   who is just a place holder as an example sign-in.''',
     epilog="""Thank you for playing.""")
 
 parser.add_argument('file1', help='The EventBrite report file goes here.')
