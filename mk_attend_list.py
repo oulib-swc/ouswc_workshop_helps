@@ -4,7 +4,7 @@ import csv
 import argparse
 import sys
 
-parser=argparse.ArgumentParser(
+parser = argparse.ArgumentParser(
     description='''This script compairs the EventBrite registration with
                    the etherpad sign-ins and outputs a final attendance
                    list with emails and domains if available.
@@ -17,7 +17,7 @@ parser=argparse.ArgumentParser(
 
 parser.add_argument('file1', help='The EventBrite report file goes here.')
 parser.add_argument('file2', help='The Etherpad sign-in file goes here')
-args=parser.parse_args()
+args = parser.parse_args()
 
 
 # Read in csv file from EventBrite
@@ -25,13 +25,14 @@ orders = ''
 try:
     orders = pd.read_csv(args.file1, index_col='Order #')
 except:
-    print ('There is a problem with', args.file1)
+    print('There is a problem with', args.file1)
     sys.exit()
 
 # Read in file list of learners from etherpad (first name last name)
 attendees = ''
 try:
-    attendees = pd.read_csv(args.file2, delimiter=' ', header=None, names=['first_name', 'last_name'] + list(range(0,4)))
+    attendees = pd.read_csv(args.file2, delimiter=' ', header=None,
+                            names=['first_name', 'last_name'] + list(range(0, 4)))
     # list(range) is needed to account for the copied sign-in list not have the
     # same number of columns for each sign-in. This also is assuming the name fields
     # to only be two parts, first and last and they are the first two items of
@@ -60,13 +61,16 @@ wr.writerow(['name', 'email', 'department'])
 # Check pre-registered in the sign-in list
 for index, row in orders.iterrows():
     if row['Last Name'].lower() in attend_list:
-        print (row['First Name'], row['Last Name'], '/', row['Email'], '/', row['Department or Center'] )
-        wr.writerow([row['First Name'] + ' ' +row['Last Name'],  row['Email'],  row['Department or Center'] ])
+        print(row['First Name'], row['Last Name'], '/',
+              row['Email'], '/', row['Department or Center'])
+        wr.writerow([row['First Name'] + ' ' + row['Last Name'],
+                     row['Email'],  row['Department or Center']])
 # Now check sign-in learner who may not have pre-register. Walk-ins.
-for index,row in attendees.iterrows():
+for index, row in attendees.iterrows():
     if row['last_name'].lower() not in order_list:
-        print (row['first_name'], row['last_name'], 'no email or department available' )
-        wr.writerow([row['first_name'] + ' ' +row['last_name']])
+        print(row['first_name'], row['last_name'],
+              'no email or department available')
+        wr.writerow([row['first_name'] + ' ' + row['last_name']])
 
 # Close output file.
 out.close()
