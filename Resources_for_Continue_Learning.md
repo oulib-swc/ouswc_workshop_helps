@@ -23,6 +23,7 @@
 	* Python:
 		* Python documentation: https://www.python.org/doc/
 		* List of python tutorials: https://www.fullstackpython.com/best-python-resources.html
+		* Python floating point Issues and Limitations: https://docs.python.org/3/tutorial/floatingpoint.html
 
 1. Python and R:
 	* Code Academy: https://www.codecademy.com/
@@ -34,7 +35,7 @@
 	* Guide to Markdown on Github: https://guides.github.com/features/mastering-markdown/
 	* Intro to Github work flow: https://guides.github.com/introduction/flow/
 	* Forking projects on Github: https://guides.github.com/activities/forking/
-	* perks: Students are eligible for a free Github education account (unlimited private repositories) https://education.github.com
+		* perks: Students are eligible for a free Github education account (unlimited private repositories) https://education.github.com
 
 1. Plotting:
 	* What chart do I use?

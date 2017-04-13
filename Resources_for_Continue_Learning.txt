@@ -2,9 +2,9 @@
 
 1.  Lessons:
     -   Shell: https://swcarpentry.github.io/shell-novice/
-    -   Git: https://swcarpentry.github.io/git-novice/ 
-        Gapminder:
-        -   Python: https://swcarpentry.github.io/python-novice-gapminder/
+    -   Git: https://swcarpentry.github.io/git-novice/ Gapminder:
+        -   Python:
+            https://swcarpentry.github.io/python-novice-gapminder/
         -   R: http://swcarpentry.github.io/r-novice-gapminder
     -   Other Carpentry Lessons: http://software-carpentry.org/lessons/
 2.  SWC Reference (Includes Summaries of Basic Commands):
@@ -22,6 +22,8 @@
         -   Python documentation: https://www.python.org/doc/
         -   List of python tutorials:
             https://www.fullstackpython.com/best-python-resources.html
+        -   Python floating point Issues and Limitations:
+            https://docs.python.org/3/tutorial/floatingpoint.html
 4.  Python and R:
     -   Code Academy: https://www.codecademy.com/
     -   Code: http://code.org
@@ -34,8 +36,9 @@
         https://guides.github.com/introduction/flow/
     -   Forking projects on Github:
         https://guides.github.com/activities/forking/
-    -   perks: Students are eligible for a free Github education account
-        (unlimited private repositories) https://education.github.com
+        -   perks: Students are eligible for a free Github education
+            account (unlimited private repositories)
+            https://education.github.com
 6.  Plotting:
     -   What chart do I use?
         http://extremepresentation.typepad.com/blog/2006/09/choosing\_a\_good.html
