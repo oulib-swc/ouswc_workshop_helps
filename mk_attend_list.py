@@ -19,6 +19,9 @@ parser.add_argument('file1', help='The EventBrite report file goes here.')
 parser.add_argument('file2', help='The Etherpad sign-in file goes here')
 args = parser.parse_args()
 
+if not vars(args):
+    parser.print_help()
+    parser.exit(1)
 
 # Read in csv file from EventBrite
 orders = ''
