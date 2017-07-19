@@ -11,6 +11,9 @@ This repository includes files that can be helpful to administrating and running
 * git_editors.txt
     * A list of 3rd party editors and how to install them for use by Git
 
+##### Promotional text for workshops
+* event_descripton.md Text for library event calendering and EventBright discription of who a workshop is targeting. Right now this is primarily for "new or beginner" learners. 
+
 ##### Admin files
 * eventbrite_preworkshop_message.txt
     * Text for sending out via Eventbrite a reminder of the upcoming workshops and to have installed the appropriate software packages
