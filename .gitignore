@@ -10,5 +10,7 @@ test/
 
 *.docx
 *.html
+*.pdf
+
 
 !ou_template_etherpad.html
