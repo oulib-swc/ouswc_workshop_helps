@@ -3,10 +3,10 @@
 1. Lessons:
 	* Shell: 	https://swcarpentry.github.io/shell-novice/
 	* Git: 	https://swcarpentry.github.io/git-novice/
-	Gapminder:
+	* Gapminder:
 		*	Python: https://swcarpentry.github.io/python-novice-gapminder/
 		*	R:		http://swcarpentry.github.io/r-novice-gapminder
-	Ecology
+	* Ecology:
 		*   R: 		http://datacarpentry.github.io/R-ecology-lesson/
 
 	* Other Carpentry Lessons:  http://software-carpentry.org/lessons/
