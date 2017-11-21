@@ -14,7 +14,7 @@
 	Gapmider
 	*	python: https://swcarpentry.github.io/python-novice-gapminder/reference/
 	*	R:		http://swcarpentry.github.io/r-novice-gapminder/reference/
-
+	*   R: 		http://datacarpentry.github.io/R-ecology-lesson/
 1. Additional Resources
 	* Shell:
 		* Cool website that can dissect your shell commands (super useful for troubleshooting):
