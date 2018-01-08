@@ -1,4 +1,12 @@
+Base repository for countries. 
+	
+	https://github.com/oulib-swc/countries_base.git
+	
+	Fork the above reposotory into host github account to serve as a local base repo. For the start of the collaboration, then import from your local base repo to create a course repo of the countries. 
+
+
 To review the steps of the collaboration exercise:
+    
     Fork  (cloud)
     clone (cloud to local your copy)
     edits/changes (local)
@@ -6,8 +14,16 @@ To review the steps of the collaboration exercise:
     git push (local to cloud your copy)
     pull request (cloud) (notify upstream (owner) available changes)
     owner/upstream can accept, ask for more detail, decline
-After upstream repository has accepted pull requests, we want to capture all those changes to our local
+
+    This section pretty much follows the standard way to post a PR.
+
+After upstream repository has accepted pull requests, we want to capture all those changes to our local repository. See source link for examples. 
+    
     add remote upstream (local)
     fetch from upstream to forked(own) (local)
     merge upstream/master to local master (local)
     push to origin  (local to cloud) own
+
+    Source for adding an upstream repository: http://digitaldrummerj.me//git-sync-fork-to-master/
+
+

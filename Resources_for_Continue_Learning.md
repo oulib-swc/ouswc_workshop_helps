@@ -14,9 +14,9 @@
 1. SWC Reference (Includes Summaries of Basic Commands):
 	* shell: 	https://swcarpentry.github.io/shell-novice/reference/
 	* git: 	https://swcarpentry.github.io/git-novice/reference/
-	Gapmider
-	*	python: https://swcarpentry.github.io/python-novice-gapminder/reference/
-	*	R:		http://swcarpentry.github.io/r-novice-gapminder/reference/
+	* Gapmider
+		*	python: https://swcarpentry.github.io/python-novice-gapminder/reference/
+		*	R:		http://swcarpentry.github.io/r-novice-gapminder/reference/
 1. Additional Resources
 	* Shell:
 		* Cool website that can dissect your shell commands (super useful for troubleshooting):
@@ -41,23 +41,30 @@
 
 1. Plotting:
 	* What chart do I use?
-	http://extremepresentation.typepad.com/blog/2006/09/choosing_a_good.html
+		* http://extremepresentation.typepad.com/blog/2006/09/choosing_a_good.html
+	* What slide do I use?
+		* http://extremepresentation.typepad.com/blog/2015/01/announcing-the-slide-chooser.html
 	* Pandas visualization examples:
-	http://pandas.pydata.org/pandas-docs/version/0.18.1/visualization.html
+		* http://pandas.pydata.org/pandas-docs/version/0.18.1/visualization.html
 	* Matplotlib visualization examples:
-		http://matplotlib.org/gallery.html
+		* http://matplotlib.org/gallery.html
 
 1. Library(package) documentation:
 	* matplotlib: http://matplotlib.org/
 	* pandas: http://pandas.pydata.org/
-
+	* ggplot2: http://ggplot2.org/
+ 
 1. Cheatsheets:
 	* Pandas: 	https://github.com/pandas-dev/pandas/raw/master/doc/cheatsheet/Pandas_Cheat_Sheet.pdf
 	* ggplot2:	http://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf
+	* dplyr: https://github.com/rstudio/cheatsheets/raw/master/data-transformation.pdf
+	* tidyr: https://github.com/rstudio/cheatsheets/raw/master/data-import.pdf
 
 1. Other:
-	* A comparison of several text editors for coding: https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Available_text_editors
-	* What programming language is right for you: http://www.bestprogramminglanguagefor.me/
+	* A comparison of several text editors for coding: 
+		* https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Available_text_editors
+	* What programming language is right for you: 
+		* http://www.bestprogramminglanguagefor.me/
 
 1. Lite Reading:
 	*  https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/
