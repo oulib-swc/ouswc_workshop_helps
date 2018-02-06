@@ -34,8 +34,9 @@ except:
 # Read in file list of learners from etherpad (first name last name)
 attendees = ''
 try:
-    attendees = pd.read_csv(args.file2, delimiter=' ', header=None,
-                            names=['first_name', 'last_name'] + list(range(0, 4)))
+    attendees = pd.read_csv(args.file2, delimiter='/', header=None,
+                            names=['name', 'dept'] + list(range(0, 5)))
+#                            names=['first_name', 'last_name'] + list(range(0, 5)))
     # list(range) is needed to account for the copied sign-in list not have the
     # same number of columns for each sign-in. This also is assuming the name fields
     # to only be two parts, first and last and they are the first two items of
@@ -48,11 +49,26 @@ except:
 # This will be problematic if two learners have the same last name. At that point
 # I will need to find another search method for comaring the two lists. It also
 # does not take into account typos in the entries by the registrant.
-attend_list = attendees['last_name'].tolist()
-order_list = orders['Last Name'].tolist()
+# And make both lists lower case
 
-# make both lists lower case
-attend_list = [item.lower() for item in attend_list]
+print(attendees['dept'])
+
+attendees_list =  attendees['name'].tolist()
+first_list = []
+last_list = []
+
+depts =  attendees['dept'].tolist()
+
+for names in attendees_list:
+    names = names.strip()
+    first, last = names.rsplit(' ',1)
+    first_list.append(first)
+    last_list.append(last)
+
+# attend_list = attendees['last_name'].tolist()
+attend_list = [item.lower() for item in last_list]
+
+order_list = orders['Last Name'].tolist()
 order_list = [item.lower() for item in order_list]
 
 
@@ -68,12 +84,17 @@ for index, row in orders.iterrows():
               row['Email'], '/', row['Department or Center'])
         wr.writerow([row['First Name'] + ' ' + row['Last Name'],
                      row['Email'],  row['Department or Center']])
+
 # Now check sign-in learner who may not have pre-register. Walk-ins.
-for index, row in attendees.iterrows():
-    if row['last_name'].lower() not in order_list:
-        print(row['first_name'], row['last_name'],
+print('----------\n')
+
+count = 0
+for item in last_list:
+    if item.lower() not in order_list:
+        print(count, item,
               'no email or department available')
-        wr.writerow([row['first_name'] + ' ' + row['last_name']])
+        wr.writerow([first_list[count] + ' ' + item, depts[count]])
+    count += 1
 
 # Close output file.
 out.close()
