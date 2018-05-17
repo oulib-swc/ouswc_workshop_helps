@@ -1,0 +1,94 @@
+{\rtf1\ansi\ansicpg1252\deff0\uc1
+{\fonttbl
+{\f0\fnil\fcharset0\fprq0\fttruetype Nimbus Roman No9 L;}
+{\f1\fnil\fcharset0\fprq0\fttruetype Nimbus Sans L;}
+{\f2\fnil\fcharset0\fprq0\fttruetype Courier New;}}
+{\colortbl
+\red0\green0\blue0;
+\red255\green255\blue255;
+\red255\green255\blue255;}
+{\stylesheet
+{\s6\fi-431\li720\sbasedon28\snext28 Contents 1;}
+{\s7\fi-431\li1440\sbasedon28\snext28 Contents 2;}
+{\s1\fi-431\li720 Arrowhead List;}
+{\s27\fi-431\li720\sbasedon28 Lower Roman List;}
+{\s29\tx431\sbasedon20\snext28 Numbered Heading 1;}
+{\s30\tx431\sbasedon21\snext28 Numbered Heading 2;}
+{\s12\fi-431\li720 Diamond List;}
+{\s9\fi-431\li2880\sbasedon28\snext28 Contents 4;}
+{\s8\fi-431\li2160\sbasedon28\snext28 Contents 3;}
+{\s31\tx431\sbasedon22\snext28 Numbered Heading 3;}
+{\s32\fi-431\li720 Numbered List;}
+{\s15\sbasedon28 Endnote Text;}
+{\*\cs14\fs20\super Endnote Reference;}
+{\s4\fi-431\li720 Bullet List;}
+{\s5\tx1584\sbasedon29\snext28 Chapter Heading;}
+{\s35\fi-431\li720 Square List;}
+{\s11\fi-431\li720 Dashed List;}
+{\s22\sb440\sa60\f1\fs24\b\sbasedon28\snext28 Heading 3;}
+{\s37\fi-431\li720 Tick List;}
+{\s24\fi-431\li720 Heart List;}
+{\s40\fi-431\li720\sbasedon32 Upper Roman List;}
+{\s39\fi-431\li720\sbasedon32 Upper Case List;}
+{\s16\fi-288\li288\fs20\sbasedon28 Footnote;}
+{\s19\fi-431\li720 Hand List;}
+{\s18\fs20\sbasedon28 Footnote Text;}
+{\s20\sb440\sa60\f1\fs34\b\sbasedon28\snext28 Heading 1;}
+{\s21\sb440\sa60\f1\fs28\b\sbasedon28\snext28 Heading 2;}
+{\s10\qc\sb240\sa120\f1\fs32\b\sbasedon28\snext28 Contents Header;}
+{\s23\sb440\sa60\f1\fs24\b\sbasedon28\snext28 Heading 4;}
+{\s28\f0\fs24 Normal;}
+{\s26\fi-431\li720\sbasedon32 Lower Case List;}
+{\s2\li1440\ri1440\sa120\sbasedon28 Block Text;}
+{\s33\f2\sbasedon28 Plain Text;}
+{\s34\tx1584\sbasedon29\snext28 Section Heading;}
+{\s25\fi-431\li720 Implies List;}
+{\s3\fi-431\li720 Box List;}
+{\s36\fi-431\li720 Star List;}
+{\*\cs17\fs20\super Footnote Reference;}
+{\s38\fi-431\li720 Triangle List;}
+{\s13\fi-288\li288\sbasedon28 Endnote;}}
+{\*\listtable
+{\list\listtemplateid1000{\listlevel\levelnfc23\levelstartat0\levelspace0\levelfollow0{\leveltext\'01\u8226 ;}{\levelnumbers;}}{\listlevel\levelnfc23\levelstartat0\levelspace0\levelfollow0{\leveltext\'01\u8226 ;}{\levelnumbers;}}{\listlevel\levelnfc23\levelstartat0\levelspace0\levelfollow0{\leveltext\'01\u8226 ;}{\levelnumbers;}}{\listlevel\levelnfc23\levelstartat0\levelspace0\levelfollow0{\leveltext\'01\u8226 ;}{\levelnumbers;}}{\listlevel\levelnfc23\levelstartat0\levelspace0\levelfollow0{\leveltext\'01\u8226 ;}{\levelnumbers;}}{\listlevel\levelnfc23\levelstartat0\levelspace0\levelfollow0{\leveltext\'01\u8226 ;}{\levelnumbers;}}{\listlevel\levelnfc23\levelstartat0\levelspace0\levelfollow0{\leveltext\'01\u8226 ;}{\levelnumbers;}}{\listlevel\levelnfc23\levelstartat0\levelspace0\levelfollow0{\leveltext\'01\u8226 ;}{\levelnumbers;}}{\listlevel\levelnfc23\levelstartat0\levelspace0\levelfollow0{\leveltext\'01\u8226 ;}{\levelnumbers;}}\listid4}
+{\list\listtemplateid1001\listsimple{\listlevel\levelnfc23\levelstartat0\levelspace0\levelfollow0{\leveltext\'01\u8226 ;}{\levelnumbers;}}\listid1}
+{\list\listtemplateid1002\listsimple{\listlevel\levelnfc23\levelstartat0\levelspace0\levelfollow0{\leveltext\'01\u8226 ;}{\levelnumbers;}}\listid2}
+{\list\listtemplateid1003\listsimple{\listlevel\levelnfc23\levelstartat0\levelspace0\levelfollow0{\leveltext\'01\u8226 ;}{\levelnumbers;}}\listid3}}
+{\*\listoverridetable
+{\listoverride\listoverridecount0\listid1\levelnfc23\levelstartat0\levelspace0\levelfollow0{\leveltext\'01\u8226 ;}{\levelnumbers;}\ls1}
+{\listoverride\listoverridecount0\listid2\levelnfc23\levelstartat0\levelspace0\levelfollow0{\leveltext\'01\u8226 ;}{\levelnumbers;}\ls2}
+{\listoverride\listoverridecount0\listid3\levelnfc23\levelstartat0\levelspace0\levelfollow0{\leveltext\'01\u8226 ;}{\levelnumbers;}\ls3}
+{\listoverride\listoverridecount0\listid4\levelnfc23\levelstartat0\levelspace0\levelfollow0{\leveltext\'01\u8226 ;}{\levelnumbers;}\ls4}
+{\listoverride\listoverridecount0\listid4\levelnfc23\levelstartat0\levelspace0\levelfollow0{\leveltext\'01\u8226 ;}{\levelnumbers;}\ls5}}
+
+\kerning0\cf0\ftnbj\fet2\ftnstart1\ftnnar\aftnnar\ftnstart1\aftnstart1\aenddoc\revprop3{\*\rdf}{\info\uc1{\title test_mjl}{\author Etherpad}}\deftab720\viewkind1\paperw11905\paperh16837\margl1440\margr1440\widowctrl
+\sectd\sbknone\colsx360\headery0\footery0\pgncont\ltrsect
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}*}{\s28\f0\fs24\b\lang1033{\*\listtag0}Software Carpentry Workshop}{\s28\f0\fs24\lang1033{\*\listtag0}\line *University of Oklahoma Bizzell Library\line *Collaborative Learning Classroom (LL123)\line *}{\s28\f0\fs24\b\lang1033{\*\listtag0}DATE}{\s28\f0\fs24\lang1033{\*\listtag0}\line *\line }{\s28\f0\fs24\b\lang1033{\*\listtag0}Course website:}{\s28\f0\fs24\lang1033{\*\listtag0}\~\line }{\s28\f0\fs24\b\lang1033{\*\listtag0}This etherpad:\~}{\s28\f0\fs24\lang1033{\*\listtag0}\~\line \line Welcome to Software Carpentry Etherpad!\line Users are expected to follow our code of conduct: }{\field{\*\fldinst {\f0\fs24\lang1033{\*\listtag0} HYPERLINK "http://software-carpentry.org/conduct.html"}}{\*\fldrslt{\s28\f0\fs24\lang1033{\*\listtag0}http://software-carpentry.org/conduct.html}}}{\s28\f0\fs24\lang1033{\*\listtag0}\line All content is publicly available under the Creative Commons Attribution License: }{\field{\*\fldinst {\f0\fs24\lang1033{\*\listtag0} HYPERLINK "https://creativecommons.org/licenses/by/4.0/"}}{\*\fldrslt{\s28\f0\fs24\lang1033{\*\listtag0}https://creativecommons.org/licenses/by/4.0/}}}{\s28\f0\fs24\lang1033{\*\listtag0}\line \line }{\s28\f0\fs24\i\b\lang1033{\*\listtag0}--- Scroll to the bottom for FRESH notes --- Scroll to the bottom for FRESH notes --- Scroll to the bottom for FRESH notes ---}{\s28\f0\fs24\lang1033{\*\listtag0}\line *\line *Please fill out the pre-class survey located on the course website.\~\line *\line *Attendees (Name / department or affiliation / twitter)\line }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+{\listtext\pard\fi-431\li720\bullet 	}\pard\plain{\ltrpar\ql\fi-431\li720\s28{\*\abilist\abilistid1\abilistparentid0\abilistlevel1\abistartat0{\abifieldfont NULL}{\abilistdecimal NULL}{\abilistdelim %L}{\abiliststyle Bullet List}}{\*\pn\pnql\pnstart0\pnlvlblt{\pntxtb\bullet}}\ls1\ilvl0\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\~}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+}{\listtext\pard\fi-431\li720\bullet 	}\pard\plain{\ltrpar\ql\fi-431\li720\s28{\*\abilist\abilistid1\abilistparentid0\abilistlevel1\abistartat0{\abifieldfont NULL}{\abilistdecimal NULL}{\abilistdelim %L}{\abiliststyle Bullet List}}{\*\pn\pnql\pnstart0\pnlvlblt{\pntxtb\bullet}}\ls1\ilvl0\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\~}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+}{\listtext\pard\fi-431\li720\bullet 	}\pard\plain{\ltrpar\ql\fi-431\li720\s28{\*\abilist\abilistid1\abilistparentid0\abilistlevel1\abistartat0{\abifieldfont NULL}{\abilistdecimal NULL}{\abilistdelim %L}{\abiliststyle Bullet List}}{\*\pn\pnql\pnstart0\pnlvlblt{\pntxtb\bullet}}\ls1\ilvl0\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\~}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+}{\listtext\pard\fi-431\li720\bullet 	}\pard\plain{\ltrpar\ql\fi-431\li720\s28{\*\abilist\abilistid1\abilistparentid0\abilistlevel1\abistartat0{\abifieldfont NULL}{\abilistdecimal NULL}{\abilistdelim %L}{\abiliststyle Bullet List}}{\*\pn\pnql\pnstart0\pnlvlblt{\pntxtb\bullet}}\ls1\ilvl0\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\~}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+}{\listtext\pard\fi-431\li720\bullet 	}\pard\plain{\ltrpar\ql\fi-431\li720\s28{\*\abilist\abilistid1\abilistparentid0\abilistlevel1\abistartat0{\abifieldfont NULL}{\abilistdecimal NULL}{\abilistdelim %L}{\abiliststyle Bullet List}}{\*\pn\pnql\pnstart0\pnlvlblt{\pntxtb\bullet}}\ls1\ilvl0\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\~}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+}{\listtext\pard\fi-431\li720\bullet 	}\pard\plain{\ltrpar\ql\fi-431\li720\s28{\*\abilist\abilistid1\abilistparentid0\abilistlevel1\abistartat0{\abifieldfont NULL}{\abilistdecimal NULL}{\abilistdelim %L}{\abiliststyle Bullet List}}{\*\pn\pnql\pnstart0\pnlvlblt{\pntxtb\bullet}}\ls1\ilvl0\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\line }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+}\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\b\lang1033{\*\listtag0}Instructors}{\s28\f0\fs24\lang1033{\*\listtag0}\line }{\s28\f0\fs24\b\lang1033{\*\listtag0}\par}
+{\listtext\pard\fi-431\li720\bullet 	}\pard\plain{\ltrpar\ql\fi-431\li720\s28{\*\abilist\abilistid2\abilistparentid0\abilistlevel1\abistartat0{\abifieldfont NULL}{\abilistdecimal NULL}{\abilistdelim %L}{\abiliststyle Bullet List}}{\*\pn\pnql\pnstart0\pnlvlblt{\pntxtb\bullet}}\ls2\ilvl0\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\~}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+}{\listtext\pard\fi-431\li720\bullet 	}\pard\plain{\ltrpar\ql\fi-431\li720\s28{\*\abilist\abilistid2\abilistparentid0\abilistlevel1\abistartat0{\abifieldfont NULL}{\abilistdecimal NULL}{\abilistdelim %L}{\abiliststyle Bullet List}}{\*\pn\pnql\pnstart0\pnlvlblt{\pntxtb\bullet}}\ls2\ilvl0\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\~}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+}{\listtext\pard\fi-431\li720\bullet 	}\pard\plain{\ltrpar\ql\fi-431\li720\s28{\*\abilist\abilistid2\abilistparentid0\abilistlevel1\abistartat0{\abifieldfont NULL}{\abilistdecimal NULL}{\abilistdelim %L}{\abiliststyle Bullet List}}{\*\pn\pnql\pnstart0\pnlvlblt{\pntxtb\bullet}}\ls2\ilvl0\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\~}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+}\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\b\lang1033{\*\listtag0}Helpers}{\s28\f0\fs24\lang1033{\*\listtag0}\line }{\s28\f0\fs24\b\lang1033{\*\listtag0}\par}
+{\listtext\pard\fi-431\li720\bullet 	}\pard\plain{\ltrpar\ql\fi-431\li720\s28{\*\abilist\abilistid3\abilistparentid0\abilistlevel1\abistartat0{\abifieldfont NULL}{\abilistdecimal NULL}{\abilistdelim %L}{\abiliststyle Bullet List}}{\*\pn\pnql\pnstart0\pnlvlblt{\pntxtb\bullet}}\ls3\ilvl0\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\~}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+}{\listtext\pard\fi-431\li720\bullet 	}\pard\plain{\ltrpar\ql\fi-431\li720\s28{\*\abilist\abilistid3\abilistparentid0\abilistlevel1\abistartat0{\abifieldfont NULL}{\abilistdecimal NULL}{\abilistdelim %L}{\abiliststyle Bullet List}}{\*\pn\pnql\pnstart0\pnlvlblt{\pntxtb\bullet}}\ls3\ilvl0\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\~}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+}{\listtext\pard\fi-431\li720\bullet 	}\pard\plain{\ltrpar\ql\fi-431\li720\s28{\*\abilist\abilistid3\abilistparentid0\abilistlevel1\abistartat0{\abifieldfont NULL}{\abilistdecimal NULL}{\abilistdelim %L}{\abiliststyle Bullet List}}{\*\pn\pnql\pnstart0\pnlvlblt{\pntxtb\bullet}}\ls3\ilvl0\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\~}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+}{\listtext\pard\fi-431\li720\bullet 	}\pard\plain{\ltrpar\ql\fi-431\li720\s28{\*\abilist\abilistid3\abilistparentid0\abilistlevel1\abistartat0{\abifieldfont NULL}{\abilistdecimal NULL}{\abilistdelim %L}{\abiliststyle Bullet List}}{\*\pn\pnql\pnstart0\pnlvlblt{\pntxtb\bullet}}\ls3\ilvl0\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\line }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+}\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}This pad is synchronized as you type, so that everyone viewing this page sees the same text. This allows you to collaborate seamlessly on documents.\line \line Use of this service is restricted to members of the Software Carpentry and Data Carpentry community; this is not for general purpose use (for that, try etherpad.wikimedia.org).\line \line *Day One\line \line Now it is time for some Git magic to wow and amaze (and to test your Git installs)\line From the command line in the command shell enter the following\line }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+{\listtext\pard\fi-431\li720\bullet 	}\pard\plain{\ltrpar\ql\fi-431\li720\s28{\*\abilist\abilistid4\abilistparentid0\abilistlevel1\abistartat0{\abifieldfont NULL}{\abilistdecimal NULL}{\abilistdelim %L}{\abiliststyle Bullet List}}{\*\pn\pnql\pnstart0\pnlvlblt{\pntxtb\bullet}}\ls4\ilvl0\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\line }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+}{\listtext\pard\fi-431\li720\bullet 	}\pard\plain{\ltrpar\ql\fi-431\li720\s28{\*\abilist\abilistid4\abilistparentid0\abilistlevel1\abistartat0{\abifieldfont NULL}{\abilistdecimal NULL}{\abilistdelim %L}{\abiliststyle Bullet List}}{\*\pn\pnql\pnstart0\pnlvlblt{\pntxtb\bullet}}\ls4\ilvl0\itap0{\s28\f0\fs24\lang1033{\*\listtag0}cd Desktop [return]}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+}{\listtext\pard\fi-431\li720\bullet 	}\pard\plain{\ltrpar\ql\fi-431\li720\s28{\*\abilist\abilistid4\abilistparentid0\abilistlevel1\abistartat0{\abifieldfont NULL}{\abilistdecimal NULL}{\abilistdelim %L}{\abiliststyle Bullet List}}{\*\pn\pnql\pnstart0\pnlvlblt{\pntxtb\bullet}}\ls4\ilvl0\itap0{\s28\f0\fs24\lang1033{\*\listtag0}git clone }{\field{\*\fldinst {\f0\fs24\lang1033{\*\listtag0} HYPERLINK "https://github.com/oulib-swc/ou_swc_files.git"}}{\*\fldrslt{\s28\f0\fs24\lang1033{\*\listtag0}https://github.com/oulib-swc/ou_swc_files.git}}}{\s28\f0\fs24\lang1033{\*\listtag0}\~ [return]}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+}{\listtext\pard\fi-431\li720\bullet 	}\pard\plain{\ltrpar\ql\fi-431\li720\s28{\*\abilist\abilistid4\abilistparentid0\abilistlevel1\abistartat0{\abifieldfont NULL}{\abilistdecimal NULL}{\abilistdelim %L}{\abiliststyle Bullet List}}{\*\pn\pnql\pnstart0\pnlvlblt{\pntxtb\bullet}}\ls4\ilvl0\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\line }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+}{\listtext\pard\fi-431\li720\bullet 	}\pard\plain{\ltrpar\ql\fi-431\li720\s28{\*\abilist\abilistid4\abilistparentid0\abilistlevel1\abistartat0{\abifieldfont NULL}{\abilistdecimal NULL}{\abilistdelim %L}{\abiliststyle Bullet List}}{\*\pn\pnql\pnstart0\pnlvlblt{\pntxtb\bullet}}\ls4\ilvl0\itap0{\s28\f0\fs24\lang1033{\*\listtag0}If git is not working for you, then paste the following link into your browser and download the zip file:}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+}{\listtext\pard\fi-431\li720\bullet 	}\pard\plain{\ltrpar\ql\fi-431\li720\s28{\*\abilist\abilistid4\abilistparentid0\abilistlevel1\abistartat0{\abifieldfont NULL}{\abilistdecimal NULL}{\abilistdelim %L}{\abiliststyle Bullet List}}{\*\pn\pnql\pnstart0\pnlvlblt{\pntxtb\bullet}}\ls4\ilvl0\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+}{\listtext\pard\fi-431\li1440\bullet 	}\pard\plain{\ltrpar\ql\fi-431\li1440\s28{\*\abilist\abilistid5\abilistparentid4\abilistlevel1\abistartat0{\abifieldfont NULL}{\abilistdecimal NULL}{\abilistdelim %L}{\abiliststyle Bullet List}}{\*\pn\pnql\pnstart0\pnlvlblt{\pntxtb\bullet}}\ls5\ilvl1\itap0{\field{\*\fldinst {\f0\fs24\lang1033{\*\listtag0} HYPERLINK "https://github.com/oulib-swc/ou_swc_files/archive/master.zip"}}{\*\fldrslt{\s28\f0\fs24\lang1033{\*\listtag0}https://github.com/oulib-swc/ou_swc_files/archive/master.zip}}}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+}\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}*Day Two\line *\line \line \line \line \line \line Last line\line  }
+\sect\sectd\sbknone\colsx360\headery0\footery0\pgncont\ltrsect
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0
+\sect\sectd\sbknone\colsx360\headery0\footery0\pgncont\ltrsect
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}}

@@ -1,6 +1,6 @@
 ### Resources for Continue Learning
 
-1. Lessons:
+1. Lessons Software Carpentry
 	* Shell: 	https://swcarpentry.github.io/shell-novice/
 	* Git: 	https://swcarpentry.github.io/git-novice/
 	* Gapminder:
@@ -11,12 +11,25 @@
 
 	* Other Carpentry Lessons:  http://software-carpentry.org/lessons/
 
-1. SWC Reference (Includes Summaries of Basic Commands):
+1. Lessons Data Carpentry (Ecology)
+	* Overview:	http://www.datacarpentry.org/ecology-workshop/
+	* Spreadsheets: http://datacarpentry.github.io/spreadsheet-ecology-lesson/
+	* OpenRefine: http://datacarpentry.github.io/OpenRefine-ecology-lesson/
+	* SQL:	http://datacarpentry.github.io/sql-ecology-lesson/
+	* Visualization using R: http://datacarpentry.github.io/R-ecology-lesson/
+
+1. SC Reference (Includes Summaries of Basic Commands):
 	* shell: 	https://swcarpentry.github.io/shell-novice/reference/
 	* git: 	https://swcarpentry.github.io/git-novice/reference/
 	* Gapmider
 		*	python: https://swcarpentry.github.io/python-novice-gapminder/reference/
 		*	R:		http://swcarpentry.github.io/r-novice-gapminder/reference/
+
+1. DC Reference:
+	* Spreadsheets: http://www.datacarpentry.org/spreadsheet-ecology-lesson/reference/
+	* OpenRefine: http://www.datacarpentry.org/OpenRefine-ecology-lesson/reference/
+	* SQL:	http://www.datacarpentry.org/sql-ecology-lesson/reference/
+	* Visualization using R: http://www.datacarpentry.org/sql-ecology-lesson/reference/
 
 1. Additional Resources
 	* Shell:
