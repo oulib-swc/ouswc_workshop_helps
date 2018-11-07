@@ -23,6 +23,8 @@ This repository includes files that can be helpful to administrating and running
     * A markdown template file for use in preparing the final workshop report to be sent in to the Carpentry Foundation after a workshop has been hosted.
 * ou_template_etherpad.etherpad and ou_template_etherpad.html
     * This template file is uploaded prior to a workshop to the workshop's etherpad. Careful here as you can only import once a etherpad extension file. Importing the html file will require some editing of the etherpad contents after imprort. 
+ * pr_course_announcement_email.md
+ 	* Example email text for promoting a workshop, stressing the *beginner* learner. Links for workshop and contacts need to be added. Double check that info is current. 
 
 ##### Programs/software
 

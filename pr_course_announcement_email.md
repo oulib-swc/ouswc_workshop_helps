@@ -1,6 +1,6 @@
 You are invited to participate in a {type:swc,dc,lc} Carpentry Workshop on {date} at the {where}. 
  
-The Carpentry is a two-day workshop designed to teach **beginning** computing skills and best practices to faculty, staff, and students.
+The {type} Carpentry is a two-day workshop designed to teach **beginning** computing skills and best practices to faculty, staff, and students.
  
 This workshop will give participants the skills to get more done with less pain by introducing participants to foundational concepts of computing including how to
 work from the command line (BASH), get started learning a programming language (python), and use version control with Git and GitHub. Please see the course
