@@ -34,7 +34,7 @@ except:
 # Read in file list of learners from etherpad (first name last name)
 attendees = ''
 try:
-    attendees = pd.read_csv(args.file2, delimiter='/', header=None,
+    attendees = pd.read_csv(args.file2, delimiter=',', header=None,
                             names=['name', 'dept'] + list(range(0, 5)))
 #                            names=['first_name', 'last_name'] + list(range(0, 5)))
     # list(range) is needed to account for the copied sign-in list not have the
@@ -51,7 +51,7 @@ except:
 # does not take into account typos in the entries by the registrant.
 # And make both lists lower case
 
-print(attendees['dept'])
+print(attendees)
 
 attendees_list =  attendees['name'].tolist()
 first_list = []
