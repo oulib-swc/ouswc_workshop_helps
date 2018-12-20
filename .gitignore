@@ -10,7 +10,6 @@ code/data
 .ipynb*
 *.ipynb
 
-gather_screen_dc.rtfd/
 *.docx
 *.html
 *.pdf
