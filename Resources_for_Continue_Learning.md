@@ -40,16 +40,16 @@
 		* Python floating point Issues and Limitations: [https://docs.python.org/3/tutorial/floatingpoint.html](https://docs.python.org/3/tutorial/floatingpoint.html)
 
 1. Python and R
-	* Code Academy: [https://www.codecademy.com/](https://www.codecademy.com/)
-	* Code:	[http://code.org](http://code.org)
-	* Lynda:	[http://lynda.ou.edu](http://lynda.ou.edu)
-	* Udacity:	[https://udacity.com](https://udacity.com)
+	* Code Academy: [https://www.codecademy.com/](https://www.codecademy.com/) 
+	* Code:	[http://code.org](http://code.org) 
+	* Lynda:	[http://lynda.ou.edu](http://lynda.ou.edu) 
+	* Udacity:	[https://udacity.com](https://udacity.com) 
 
 1. Git/GitHub
 	* Guide to Markdown on Github: [https://guides.github.com/features/mastering-markdown/](https://guides.github.com/features/mastering-markdown/)
 	* Intro to Github workflow: [https://guides.github.com/introduction/flow/](https://guides.github.com/introduction/flow/)
 	* Forking projects on Github: [https://guides.github.com/activities/forking/](https://guides.github.com/activities/forking/)
-		* perks: Students are eligible for a free Github education account (unlimited private repositories) [https://education.github.com](https://education.github.com)
+		* perks: Students are eligible for a free Github education account (unlimited private repositories) [https://education.github.com](https://education.github.com) 
 
 1. Plotting
 	* What chart do I use?
@@ -64,19 +64,19 @@
 1. Library(package) documentation:
 	* matplotlib: [http://matplotlib.org/](http://matplotlib.org/)
 	* pandas: [http://pandas.pydata.org/](http://pandas.pydata.org/)
-	* ggplot2: [http://ggplot2.org/](http://ggplot2.org/)
+	* ggplot2: [http://ggplot2.org/](http://ggplot2.org/) 
  
 1. Cheatsheets
 	* Pandas: 	[https://github.com/pandas-dev/pandas/raw/master/doc/cheatsheet/Pandas_Cheat_Sheet.pdf](https://github.com/pandas-dev/pandas/raw/master/doc/cheatsheet/Pandas_Cheat_Sheet.pdf)
 	* ggplot2:	[http://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf](http://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf)
 	* dplyr: [https://github.com/rstudio/cheatsheets/raw/master/data-transformation.pdf](https://github.com/rstudio/cheatsheets/raw/master/data-transformation.pdf)
-	* tidyr: [https://github.com/rstudio/cheatsheets/raw/master/data-import.pdf](https://github.com/rstudio/cheatsheets/raw/master/data-import.pdf)
+	* tidyr: [https://github.com/rstudio/cheatsheets/raw/master/data-import.pdf](https://github.com/rstudio/cheatsheets/raw/master/data-import.pdf) 
 
 1. Other
 	* A comparison of several text editors for coding: 
 		* [https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Available_text_editors](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Available_text_editors)
 	* What programming language is right for you: 
-		* [http://www.bestprogramminglanguagefor.me/](http://www.bestprogramminglanguagefor.me/)
+		* [http://www.bestprogramminglanguagefor.me/](http://www.bestprogramminglanguagefor.me/) 
 
 1. Lite Reading
-	*  What is Code? [https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/)
+	*  What is Code? [https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/) 

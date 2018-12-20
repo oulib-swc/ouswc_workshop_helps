@@ -1,0 +1,7 @@
+Dear learner,
+ 
+You were on the waitlist for our most recent Carpentries event in [November].  Therefore, we are writing you to notify you that registration has opened for a [Software Carpentry] workshop on [Dec. 19-20].  The registration notification is being sent out today and and then broadly publicized on [Monday Dec. 5], so please register as soon as possible to ensure your place at the workshop.  You can view the syllabus and register here: [https://oulib-swc.github.io/2018-12-19-ou-swc]
+
+ 
+Best regards,
+

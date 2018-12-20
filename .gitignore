@@ -4,13 +4,16 @@
 past/
 current/
 test/
+code/data
+
 
 .ipynb*
 *.ipynb
 
+gather_screen_dc.rtfd/
 *.docx
 *.html
 *.pdf
-
+*.csv
 
 !ou_template_etherpad.html
