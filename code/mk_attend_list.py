@@ -1,6 +1,8 @@
 import pandas as pd
 import csv
 
+# bring in names_tools for trying to deal with the name differences from the two lists
+import name_tools as nt
 
 # Read in orders from Eventbrite to get signup list of learners
 eventbrite_report = input('Enter the name of the EventBrite event report.  ')
@@ -16,8 +18,6 @@ attendees = pd.read_csv(signin_file, delimiter='/',
                         header=None, names=['name', 'department', 'twitter'])
 # print(attendees)
 
-# bring in names_tools for trying to deal with the name differences from the two lists
-import name_tools as nt
 
 # make sign-in list using nametool
 attendees_list = []
@@ -67,6 +67,11 @@ for name_attend in attendees_list:
         print(aname, atnd_dict[aname][0])
         final_list.append([aname, atnd_dict[aname][0]])
         departments.append(atnd_dict[aname][0])
+
+num_regist = len(orders_list)
+num_attend = len(attendees_list)
+print (' Registered: ', num_regist)
+print (' Attended: ',  num_attend)
 
 # write out users file
 out = open('final_attendenc.csv', 'w')
