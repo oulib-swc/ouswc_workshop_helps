@@ -5,14 +5,17 @@ import csv
 import name_tools as nt
 
 # Read in orders from Eventbrite to get signup list of learners
-eventbrite_report = input('Enter the name of the EventBrite event report.  ')
+eventbrite_report = input('Enter the name of the EventBrite event report:  ')
 
 orders = pd.read_csv(eventbrite_report, index_col='Order #')
 
 # print(orders[['First Name', 'Last Name', 'Email', 'Department or Center']])
 
 # Read in list of learners who signed in on the etherpad ans thus attended the workshop
-signin_file = input('Enter the filename of the etherpad sign-in.  ')
+# some edititing of the sign-in list is needed to get file in the proper format
+# common eerors right now are no including a dept/college and hyphenated names 
+
+signin_file = input('Enter the filename of the etherpad sign-in:  ')
 
 attendees = pd.read_csv(signin_file, delimiter='/', 
                         header=None, names=['name', 'department', 'twitter'])
@@ -71,7 +74,7 @@ for name_attend in attendees_list:
 num_regist = len(orders_list)
 num_attend = len(attendees_list)
 print (' Registered: ', num_regist)
-print (' Attended: ',  num_attend)
+print (' Attended Day 1: ',  num_attend)
 
 # write out users file
 out = open('final_attendenc.csv', 'w')
