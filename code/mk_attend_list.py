@@ -19,7 +19,6 @@ signin_file = input('Enter the filename of the etherpad sign-in:  ')
 
 attendees = pd.read_csv(signin_file, delimiter='/', 
                         header=None, names=['name', 'department', 'twitter'])
-# print(attendees)
 
 
 # make sign-in list using nametool
