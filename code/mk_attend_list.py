@@ -1,3 +1,5 @@
+#! /usr/bin/env python
+
 import pandas as pd
 import csv
 
@@ -8,6 +10,9 @@ import name_tools as nt
 eventbrite_report = input('Enter the name of the EventBrite event report:  ')
 
 orders = pd.read_csv(eventbrite_report, index_col='Order #')
+
+# Now using the eventbrite filename, create the name for the output files and plots
+dtg = eventbrite_report.split('-')[1] + eventbrite_report.split('-')[2] + eventbrite_report.split('-')[3].split('T')[0]
 
 # print(orders[['First Name', 'Last Name', 'Email', 'Department or Center']])
 
@@ -76,7 +81,7 @@ print (' Registered: ', num_regist)
 print (' Attended Day 1: ',  num_attend)
 
 # write out users file
-out = open('final_attendenc.csv', 'w')
+out = open('final_attendenc_' + dtg + '.csv', 'w')
 wr = csv.writer(out, dialect='excel')
 wr.writerow(['name', 'department', 'email'])
 for item in final_list:
@@ -84,7 +89,7 @@ for item in final_list:
 out.close()
 
 # write out departments file 
-out = open('latest_departments.csv', 'w')
+out = open('latest_departments_' + dtg + '.csv', 'w')
 wr = csv.writer(out, dialect='excel')
 wr.writerow(['department'])
 for item in departments:
