@@ -65,6 +65,7 @@
 	* matplotlib: [http://matplotlib.org/](http://matplotlib.org/)
 	* pandas: [http://pandas.pydata.org/](http://pandas.pydata.org/)
 	* ggplot2: [http://ggplot2.org/](http://ggplot2.org/) 
+	* tidyverse: [https://www.tidyverse.org/](https://www.tidyverse.org/)
  
 1. Cheatsheets
 	* Pandas: 	[https://github.com/pandas-dev/pandas/raw/master/doc/cheatsheet/Pandas_Cheat_Sheet.pdf](https://github.com/pandas-dev/pandas/raw/master/doc/cheatsheet/Pandas_Cheat_Sheet.pdf)
